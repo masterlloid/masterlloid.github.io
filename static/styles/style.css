@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab&display=swap');
+body {
+    font-family: Roboto Slab, serif;
+    background: linear-gradient(90deg, #8400ff 0%, #0400ff 100%);
+}
+p {
+    color: rgb(139, 106, 255);
+}
+.nav-link {
+    color: rgb(0, 89, 255);
+}
+.navbar-nav .nav-link.active {
+    color: rgb(139, 106, 255);
+}
+.navbar-brand img {
+    width: 40px;
+}
+.navbar-toggler {
+    background-color: rgb(245, 162, 162);
+}
+.nav-right {
+    color: rgb(245, 162, 162);
+    background: linear-gradient(270deg, #00ffd5 0%, #7bff00 100%);
+}
+.card {
+    background: linear-gradient(270deg, #00ffd5 0%, #7bff00 100%);
+}
+.card a {
+    text-decoration: none;
+    color: rgb(59, 224, 59);
+}
+.slide-text {
+    color: rgb(165, 16, 158);
+    margin: auto auto;
+}
+.footer-text {
+    color: rgb(93, 230, 240);
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #259bd1 0%, #f5be09 100%);
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-anime {
+    animation: phone 2s ease 0s infinite normal forwards; 
+}
+
+@keyframes phone {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media (max-width: 750px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
